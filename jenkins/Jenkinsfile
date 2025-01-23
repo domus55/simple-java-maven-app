@@ -29,5 +29,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('Even more complete'){
+            steps {
+                echo 'Job Complete but this time even more hphp!'
+            }
+        }
     }
 }
